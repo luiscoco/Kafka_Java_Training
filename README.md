@@ -14,6 +14,8 @@ One or more consumers can consume the messages in the queue, but a particular me
 
 ## 1. What is Kafka?
 
+What is Kafka and How does it work?: https://www.youtube.com/watch?v=LN_HcJVbySw
+
 Apache Kafka is basically an **Open-Source** messaging tool developed by **Linkedin** to provide **Low-Latency** and **High-Throughput** platform for the **real-time** data feed.
 
 It is developed using **Scala** and **Java** programming Languages.
