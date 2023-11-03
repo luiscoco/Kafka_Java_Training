@@ -110,13 +110,11 @@ Unleash the power of distributed computing and scalable data processing with our
 
 If we are goint to download and run Kafka we can install latest Java version. 
 
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/67c0d54a-13c2-49bc-87d2-44b1c1e07993)
+
+After installing Java JDK 21, we can run the following command to verify the installation.
+
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/b759eb36-9142-407e-bad3-09cea267d2b1)
 
 But if we are going to run Kafka with the Confluence platform it is more advidable to install Java 11.
-
-
-
-Yet, there are a few prerequisites for this. One needs to have Kafka and Zookeeper installed in the Local System.
-
-The code is written is for wordcount which documented below as follows.
 
