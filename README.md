@@ -58,3 +58,59 @@ Local State is the memory location that stores the intermediate results of the g
 
 To increase data parallelism, we can directly increase the number of Instances. Moving ahead, we will understand the features of Kafka Streams.
 
+## 5. Kafka Stream Features
+
+Now, let us discuss the important features of Kafka streams that give it an edge over other similar technologies.
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/d0888fc7-ee80-42bd-8062-891700d50e50)
+
+**Elastic**
+
+Apache Kafka is an open-source project that was designed to be highly available and horizontally scalable. 
+
+Hence, with the support of Kafka, Kafka streams API has achieved it’s highly elastic nature and can be easily expandable.
+
+**Fault-tolerant**
+
+The Data logs are initially partitioned and these partitions are shared among all the servers in the cluster that are handling the data and the respective requests. 
+
+Thus Kafka achieves fault tolerance by duplicating each partition over a number of servers.
+
+**Highly viable**
+
+Since Kafka clusters are highly available, hence, they can be preferred any sort of use cases regardless of their size. 
+
+They are capable of supporting small, medium and large scale use cases.
+
+**Integrated Security**
+
+Kafka has three major security components that offer the best in class security for the data in its clusters. They are mentioned below as follows:
+
+Encryption of data using SSL/TLS
+
+Authentication of SSL/SASL
+
+Authorization of ACLs
+
+Followed by Security, we have its support for top-end programming languages.
+
+**Support for Java and Scala**
+
+The best part about Kafka Streams API is that it gets integrated itself the most dominant programming languages like Java and Scala and makes designing and deploying Kafka Server-side applications with ease.
+
+**Exactly-once processing semantics**
+
+Usually, stream processing is a continuous execution of the unbounded series of data or events. But in the case of Kafka, it is not. 
+
+Exactly-Once means that the user-defined statement or logic is executed only once and the updates to state, managed by SPE(Stream Processing Element) are committed only once in a durable back-end store
+
+Unleash the power of distributed computing and scalable data processing with our Spark Certification.
+
+## 6. Kafka Streams Example
+
+This particular example can be executed using Java Programming Language. 
+
+Yet, there are a few prerequisites for this. One needs to have Kafka and Zookeeper installed in the Local System.
+
+The code is written is for wordcount which documented below as follows.
+
