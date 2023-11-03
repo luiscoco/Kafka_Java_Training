@@ -122,6 +122,8 @@ First, we are going to install Apache Kafka from the official site: https://kafk
 
 Press on the link file "kafka_2.13-3.6.0.tgz" to start the donwload.
 
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/462a0e3b-847e-42d1-8e21-483e1c9d7b10)
+
 Then unzip the file in your local and move the folder to the C: hard disk.
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/0fba940f-9aa5-491d-8b06-b5e70a1e99e5)
@@ -132,5 +134,5 @@ Then unzip the file in your local and move the folder to the C: hard disk.
 
 
 
-![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/462a0e3b-847e-42d1-8e21-483e1c9d7b10)
+
 
