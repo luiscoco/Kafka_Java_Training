@@ -4,7 +4,7 @@
 
 What is Kafka?: https://www.youtube.com/watch?v=aj9CDZm0Glc
 
-![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/1a095358-8d96-462d-b8dc-dc1fcc4e4cf8)
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/3701e05b-3f98-4427-a812-fddb95e5ef4c)
 
 ## 0. Messaging system
 
