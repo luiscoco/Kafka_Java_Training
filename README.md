@@ -306,9 +306,9 @@ If we would like to delete a topic then run the command:
 kafka-topics --delete --bootstrap-server localhost:9092 --topic second-topic                           
 ```
 
-**Note:**
+**NOTE:**
 
-For delete add the following in kafka server.properties
+For delete add the following in kafka **server.properties**
 
 ```
 delete.topic.enable=true
