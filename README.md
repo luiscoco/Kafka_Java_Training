@@ -284,13 +284,23 @@ kafka-topics --describe --bootstrap-server localhost:9092 --topic first-topic
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/7d95731d-b391-47e6-bc5b-7e5298805941)
 
+We open a new prompt command window, for creating a consumer, we run the following command:
+
 ```
 kafka-console-consumer --bootstrap-server localhost:9092 --topic second-topic
 ```
 
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/1608e09e-3f8a-47f6-a9e5-28f86b74eb53)
+
+We open a new prompt command window, for creating a new producer, we run the following command:
+
 ```
 kafka-console-producer --broker-list localhost:9092 --topic second-topic
 ```
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/b1d57937-d4be-4b8d-8afa-48284360b70f)
+
+If we would like to delete a topic then run the command:
 
 ```
 kafka-topics --delete --bootstrap-server localhost:9092 --topic second-topic                           
