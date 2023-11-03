@@ -130,6 +130,16 @@ Then unzip the file in your local and move the folder to the C: hard disk.
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/f2e6a91e-ccd3-4b37-96c0-30fb99b4aa84)
 
+## 7. We add the Kafka commands to the PATH variable
+
+We copy the Kafka commands for windows path and we copy to the PATH environmental variable.
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/ee58aa02-cfd3-48ef-bc7d-b0bfd362d0f9)
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/bb0c97c5-3c7a-4f85-aa3d-0d27f0363dd7)
+
+
+
 
 
 
