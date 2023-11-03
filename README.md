@@ -2,6 +2,8 @@
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/841cbb60-b84a-4b66-88e9-7b8606929ee6)
 
+What is Kafka?: https://www.youtube.com/watch?v=aj9CDZm0Glc
+
 ## 0. Messaging system
 
 In a point-to-point system, messages are persisted in a queue. 
