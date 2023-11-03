@@ -271,10 +271,10 @@ kafka-topics --list --bootstrap-server localhost:9092
 For creating a new topic "first-topic" an specify the partitions
 
 ```
-kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic first-topic
+kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic second-topic
 ```
 
-![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/7d95731d-b391-47e6-bc5b-7e5298805941)
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/78e7e5d1-a34a-4b4c-aafd-670ddcb4193e)
 
 For describing an existing topic
 
@@ -282,16 +282,18 @@ For describing an existing topic
 kafka-topics --describe --bootstrap-server localhost:9092 --topic first-topic
 ```
 
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/7d95731d-b391-47e6-bc5b-7e5298805941)
+
 ```
-kafka-console-consumer --bootstrap-server localhost:9092 --topic first-topic
+kafka-console-consumer --bootstrap-server localhost:9092 --topic second-topic
 ```
 
 ```
-kafka-console-producer --broker-list localhost:9092 --topic first-topic
+kafka-console-producer --broker-list localhost:9092 --topic second-topic
 ```
 
 ```
-kafka-topics --delete --bootstrap-server localhost:9092 --topic first-topic                           
+kafka-topics --delete --bootstrap-server localhost:9092 --topic second-topic                           
 ```
 
 **Note:**
