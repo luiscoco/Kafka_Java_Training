@@ -118,3 +118,19 @@ After installing Java JDK 21, we can run the following command to verify the ins
 
 But if we are going to run Kafka with the Confluence platform it is more advidable to install Java 11.
 
+First, we are going to install Apache Kafka from the official site: https://kafka.apache.org/downloads
+
+Press on the link file "kafka_2.13-3.6.0.tgz" to start the donwload.
+
+Then unzip the file in your local and move the folder to the C: hard disk.
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/0fba940f-9aa5-491d-8b06-b5e70a1e99e5)
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/f2e6a91e-ccd3-4b37-96c0-30fb99b4aa84)
+
+
+
+
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/462a0e3b-847e-42d1-8e21-483e1c9d7b10)
+
