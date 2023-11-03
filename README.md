@@ -314,6 +314,19 @@ For delete add the following in kafka **server.properties**
 delete.topic.enable=true
 ```
 
+## 11. Kafka APIs
+
+### Admin API
+
+### Producer API
+
+### Consumer API
+
+### Streams API
+
+### Connect API
+
+
 
 
 
