@@ -138,7 +138,23 @@ We copy the Kafka commands for windows path and we copy to the PATH environmenta
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/bb0c97c5-3c7a-4f85-aa3d-0d27f0363dd7)
 
+## 8. Running the zookeeper
 
+Open a command prompt window and run the command 
+
+```
+C:\>zookeeper-server-start C:\kafka_2.13-3.6.0\config\zookeeper.properties
+```
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/09da7e4c-e3c0-4272-a2e9-9de445944996)
+
+## 9. Run kafka broker
+
+Open a command prompt window and run the command 
+
+```
+C:\Users\LEnriquez>kafka-server-start C:\kafka_2.13-3.6.0\config\server.properties
+```
 
 
 
