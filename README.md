@@ -80,6 +80,8 @@ Kafka’s having more than one broker are called as Kafka cluster.
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/e51054b1-2c67-4978-aa64-c1bbb2b7b81b)
 
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/549aad47-8369-4aae-9d3a-fdc5a644a27a)
+
 ### Zookeeper
 
 ZooKeeper is used for managing and coordinating Kafka broker. 
