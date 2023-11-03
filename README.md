@@ -156,17 +156,26 @@ Open a command prompt window and run the command
 C:\Users\LEnriquez>kafka-server-start C:\kafka_2.13-3.6.0\config\server.properties
 ```
 
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/005bde6b-51e1-4a7b-a2a0-8b99696087ee)
+
 ## 10. Run some kafka commands
 
 This command is to list the topics in your local server
+
 ```
 kafka-topics --list --bootstrap-server localhost:9092
 ```
 
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/46311b43-f99e-4c26-8c8e-2900806bf7ec)
+
+
 For creating a new topic "first-topic" an specify the partitions
+
 ```
 kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic first-topic
 ```
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/7d95731d-b391-47e6-bc5b-7e5298805941)
 
 For describing an existing topic
 
