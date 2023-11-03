@@ -318,15 +318,23 @@ delete.topic.enable=true
 
 ### Admin API
 
+https://kafka.apache.org/documentation/#adminapi
+
 ### Producer API
+
+https://kafka.apache.org/documentation/#producerapi
 
 ### Consumer API
 
+https://kafka.apache.org/documentation/#consumerapi
+
 ### Streams API
+
+https://kafka.apache.org/36/documentation/streams/
 
 ### Connect API
 
-
+https://kafka.apache.org/documentation/#connectapi
 
 
 
