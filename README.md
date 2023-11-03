@@ -1,12 +1,99 @@
 # Kafka Java Training
 
+## 0. Messaging system
+
+In a point-to-point system, messages are persisted in a queue. 
+
+One or more consumers can consume the messages in the queue, but a particular message can be consumed by a maximum of one consumer only.
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/fe405652-a82f-410e-829d-a7cc97fb4674)
+
 ## 1. What is Kafka?
 
 Apache Kafka is basically an **Open-Source** messaging tool developed by **Linkedin** to provide **Low-Latency** and **High-Throughput** platform for the **real-time** data feed.
 
 It is developed using **Scala** and **Java** programming Languages.
 
-![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/ddde5f4c-1a84-4e57-9b78-af6bc1c80183)
+Apache Kafka is a distributed publish-subscribe messaging system and a robust queue that can handle a high volume of data and enables us to pass messages from one end-point to another.
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/25117890-7b86-43ec-814f-e09e7d28e92d)
+
+### Topics
+
+A stream of messages belonging to a category is called a topic. 
+
+Data is stored in topics. Kafka topics are analogous to radio / TV channels. 
+
+Multiple consumers can subscribe to same topic and consume the messages.
+
+Topics are split into partitions. For each topic, Kafka keeps a minimum of one partition. 
+
+Each such partition contains messages in an immutable ordered sequence.
+
+### Partition offset
+
+Each partitioned message has a unique sequence id called as offset. 
+
+For each topic, the Kafka cluster maintains a partitioned log that looks like this:
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/a07ff6a2-e17a-4eb5-9721-08b8cfee6520)
+
+Each partition is an ordered, immutable sequence of records that is continually appended to—a structured commit log. 
+
+The records in the partitions are each assigned a sequential id number called the offset that uniquely identifies each record within the partition.
+
+The Kafka cluster durably persists all published records—whether or not they have been consumed—using a configurable retention period. 
+
+For example, if the retention policy is set to two days, then for the two days after a record is published, it is available for consumption, after which it will be discarded to free up space.
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/58de78c7-7c98-4707-ac34-d77439998905)
+
+### Replicas of partition
+
+Replicas are nothing but backups of a partition. 
+
+Replicas are never read or write data. 
+
+They are used to prevent data loss.
+
+### Brokers
+
+Brokers are simple system responsible for maintaining the published data. 
+
+Each broker may have zero or more partitions per topic.
+
+### Kafka Cluster
+
+Kafka’s having more than one broker are called as Kafka cluster.
+
+### Kafka Cluster Architecture
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/e51054b1-2c67-4978-aa64-c1bbb2b7b81b)
+
+### Zookeeper
+
+ZooKeeper is used for managing and coordinating Kafka broker. 
+
+ZooKeeper service is mainly used to notify producer and consumer about the presence of any new broker in the Kafka system or failure of the broker in the Kafka system.
+
+### Consumer Group
+
+Consumers label themselves with a consumer group name, and each record published to a topic is delivered to one consumer instance within each subscribing consumer group.
+
+### Kafka features
+
+High Throughput: Provides support for hundreds of thousands of messages with modest hardware.
+
+Scalability: Highly scalable distributed system with no downtime
+
+Data Loss: Kafka ensures no data loss once configured properly
+
+Stream processing: Kafka can be used along with real time streaming applications like Spark and Storm
+
+Durability: Provides support to persisting messages on disk
+
+Replication: Messages can be replicated across clusters, which supports multiple subscribers
+
 
 ## 2. What is a Stream?
 
