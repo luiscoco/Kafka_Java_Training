@@ -82,17 +82,17 @@ Consumers label themselves with a consumer group name, and each record published
 
 ### Kafka features
 
-High Throughput: Provides support for hundreds of thousands of messages with modest hardware.
+**High Throughput:** Provides support for hundreds of thousands of messages with modest hardware.
 
-Scalability: Highly scalable distributed system with no downtime
+**Scalability:** Highly scalable distributed system with no downtime
 
-Data Loss: Kafka ensures no data loss once configured properly
+**Data Loss:** Kafka ensures no data loss once configured properly
 
-Stream processing: Kafka can be used along with real time streaming applications like Spark and Storm
+**Stream processing:** Kafka can be used along with real time streaming applications like Spark and Storm
 
-Durability: Provides support to persisting messages on disk
+**Durability:** Provides support to persisting messages on disk
 
-Replication: Messages can be replicated across clusters, which supports multiple subscribers
+**Replication:** Messages can be replicated across clusters, which supports multiple subscribers
 
 
 ## 2. What is a Stream?
