@@ -106,9 +106,15 @@ Exactly-Once means that the user-defined statement or logic is executed only onc
 
 Unleash the power of distributed computing and scalable data processing with our Spark Certification.
 
-## 6. Kafka Streams Example
+## 6. Kafka Installation
 
-This particular example can be executed using Java Programming Language. 
+If we are goint to download and run Kafka we can install latest Java version. 
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/b759eb36-9142-407e-bad3-09cea267d2b1)
+
+But if we are going to run Kafka with the Confluence platform it is more advidable to install Java 11.
+
+
 
 Yet, there are a few prerequisites for this. One needs to have Kafka and Zookeeper installed in the Local System.
 
