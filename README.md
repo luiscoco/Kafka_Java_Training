@@ -6,6 +6,8 @@ Apache Kafka is basically an **Open-Source** messaging tool developed by **Linke
 
 It is developed using **Scala** and **Java** programming Languages.
 
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/ddde5f4c-1a84-4e57-9b78-af6bc1c80183)
+
 ## 2. What is a Stream?
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/68fc64da-d5a0-47d2-8bfd-5b24df617255)
