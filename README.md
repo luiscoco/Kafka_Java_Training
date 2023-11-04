@@ -424,7 +424,7 @@ Now we create a new file called "" in the applicaton root and we input the follo
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/3ad0f409-7cfd-40cf-9557-4e3ed6398cd2)
 
-Then we donwload Kafka JAR files from Apache Kafka web page and we place the JAR files in the **lib** folder
+Then we donwload Kafka JAR files from Apache Kafka web page (https://kafka.apache.org/downloads), and we place the JAR files in the Kafka producer Java application **lib** folder
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/aa7729cc-90c5-4d03-b32b-57de9898b4d2)
 
