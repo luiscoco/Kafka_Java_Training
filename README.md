@@ -449,3 +449,9 @@ C:\Kafka with Java\OrderProducer> java -cp "lib/*;src;." KafkaProducerApp
 ```
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/86cffc0e-659b-4746-a563-698b0deabc7c)
+
+## 13. Create a Kafka Consumer Java application with VSCode
+
+
+
+
