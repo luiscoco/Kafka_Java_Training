@@ -374,4 +374,10 @@ PS C:\Kafka with Java\OrderProducer> javac src/App.java
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/c8525741-2316-4796-addc-7dca1d266c44)
 
+For running the new Java application we type the command:
 
+```
+PS C:\Kafka with Java\OrderProducer> java -cp src App  
+```
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/d4a98fb5-6da1-4398-b945-44be81cd9cfa)
