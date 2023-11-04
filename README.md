@@ -340,6 +340,18 @@ https://kafka.apache.org/36/documentation/streams/
 
 https://kafka.apache.org/documentation/#connectapi
 
-## 12. 
+## 12. Create a Java project with VSCode
 
+We create a new folder to place the Java application
 
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/b6e778bf-c0cf-444c-b94c-42914f54180e)
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/eddfc3ef-f7ed-42b6-aa8f-5ff29088b145)
+
+We press the keys Ctl+P to create a new Java project in VSCode
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/c5b3aed1-3a50-40c1-8cab-51f17e74fc6c)
+
+We select the first option "No build tools"
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/dbd6f666-a160-412b-9bbc-902249801a13)
