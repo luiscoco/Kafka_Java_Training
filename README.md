@@ -474,8 +474,32 @@ kafka-server-start C:\kafka_2.13-3.6.0\config\server.properties
 
 ### 14.3. Then open with VSCode the **Kafka Consumer** application and run it
 
+To **compile** the Kafka Consumer Java application
+
+```
+C:\Kafka with Java\OrderConsumer> javac -cp "lib/*;src" src/KafkaConsumerApp.java
+```
+
+To **run** the Kafka Consumer Java application
+
+```
+C:\Kafka with Java\OrderConsumer> java -cp "lib/*;src;." KafkaConsumerApp
+```
+
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/0c03893c-0fd5-465c-905a-6fb88752fae1)
 
 ### 14.4. Then open with VSCode the **Kafka Producer** application and run it
+
+To **compile** the Kafka Consumer Java application
+
+```
+C:\Kafka with Java\OrderProducer> javac -cp "lib/*;src" src/KafkaProducerApp.java
+```
+
+To **run** the Kafka Producer Java application
+
+```
+C:\Kafka with Java\OrderProducer> java -cp "lib/*;src;." KafkaProducerApp
+```
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/40403620-3a24-498e-8f76-a33ea5737ca0)
