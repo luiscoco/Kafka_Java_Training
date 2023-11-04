@@ -426,6 +426,12 @@ Now we create a new file called "" in the applicaton root and we input the follo
 
 Then we donwload Kafka JAR files from Apache Kafka web page (https://kafka.apache.org/downloads), and we place the JAR files in the Kafka producer Java application **lib** folder
 
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/3c5dd16e-8d37-4f45-8d28-09a16cc0bf61)
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/d0f37880-3f67-4dd9-a2bc-01eef311bc08)
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/4d6e6392-6ec9-4c0b-afe5-e63f8582a769)
+
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/aa7729cc-90c5-4d03-b32b-57de9898b4d2)
 
 To compile the Kafka Producer Java application run this command:
