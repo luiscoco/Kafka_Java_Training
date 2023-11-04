@@ -362,3 +362,7 @@ Now we select the folder where to place the new Java application
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/3d4d2d05-ddd3-4b93-8b8f-59e9d20f739f)
 
+We set the new Java application name ""
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/39c8b7fd-508d-43fc-8625-498d5d44ba4c)
+
