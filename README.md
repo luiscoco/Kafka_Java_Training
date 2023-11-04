@@ -357,3 +357,8 @@ We press the keys Ctl+P to create a new Java project in VSCode
 We select the first option "No build tools"
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/dbd6f666-a160-412b-9bbc-902249801a13)
+
+Now we select the folder where to place the new Java application
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/3d4d2d05-ddd3-4b93-8b8f-59e9d20f739f)
+
