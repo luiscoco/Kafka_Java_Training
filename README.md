@@ -381,3 +381,50 @@ PS C:\Kafka with Java\OrderProducer> java -cp src App
 ```
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/d4a98fb5-6da1-4398-b945-44be81cd9cfa)
+
+Now we enter the Kafka Producer source code in VSCode
+
+```java
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.Producer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+import java.util.Properties;
+
+public class KafkaProducerApp {
+    public static void main(String[] args) {
+        // Set up producer properties
+        Properties properties = new Properties();
+        properties.put("bootstrap.servers", "localhost:9092");
+        properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+        properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+
+        // Create Kafka producer
+        Producer<String, String> producer = new KafkaProducer<>(properties);
+
+        // Produce a message
+        String topic = "your-topic";
+        String key = "key1";
+        String value = "Hello, Kafka!";
+        ProducerRecord<String, String> record = new ProducerRecord<>(topic, key, value);
+
+        // Send the message
+        producer.send(record);
+
+        // Close the producer
+        producer.close();
+    }
+}
+```
+
+Then we rename the application name to "KafkaProducerApp"
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/9d9b1986-e974-4752-a3c2-822597b69e37)
+
+Now we create a new file called "" in the applicaton root and we input the following code:
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/3ad0f409-7cfd-40cf-9557-4e3ed6398cd2)
+
+Then we donwload Kafka JAR files from Apache Kafka web page and we place the JAR files in the **lib** folder
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/aa7729cc-90c5-4d03-b32b-57de9898b4d2)
+
