@@ -340,7 +340,7 @@ https://kafka.apache.org/36/documentation/streams/
 
 https://kafka.apache.org/documentation/#connectapi
 
-## 12. Create a Java project with VSCode
+## 12. Create a Kafka Producer Java application with VSCode
 
 We create a new folder to place the Java application.
 
