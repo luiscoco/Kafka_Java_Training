@@ -1,5 +1,7 @@
 # Kafka Java Training
 
+https://github.com/bharaththippireddy/kafkaforjavadevelopers
+
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/a08822b2-600f-454a-8334-0c129012bad2)
 
 What is Kafka?: https://www.youtube.com/watch?v=aj9CDZm0Glc
