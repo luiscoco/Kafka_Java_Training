@@ -362,13 +362,16 @@ Now we select the folder where to place the new Java application
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/3d4d2d05-ddd3-4b93-8b8f-59e9d20f739f)
 
-We set the new Java application name ""
+We set the new Java application name "OrderProducer". The new Java application is created:
 
-![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/39c8b7fd-508d-43fc-8625-498d5d44ba4c)
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/7da21ea6-78e6-4b76-b2bc-931ac144c13e)
 
-The new Java application is created:
+We run this command to compile the application and generate the **App.class** file
 
-![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/a416d317-7864-40aa-a41f-db9b5de7f2d4)
+```
+PS C:\Kafka with Java\OrderProducer> javac src/App.java
+```
 
-![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/aacdfd80-afe7-4a59-9180-c447cdcb89ba)
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/c8525741-2316-4796-addc-7dca1d266c44)
+
 
