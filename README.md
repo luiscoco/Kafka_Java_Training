@@ -344,17 +344,17 @@ https://kafka.apache.org/documentation/#connectapi
 
 We create a new folder to place the Java application.
 
-We right click inside the folder and we select the option "Open with VSCode".
+We right click inside the folder and we select the option **Open with VSCode**.
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/b6e778bf-c0cf-444c-b94c-42914f54180e)
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/eddfc3ef-f7ed-42b6-aa8f-5ff29088b145)
 
-We press the keys Ctl+P to create a new Java project in VSCode
+We press the keys **Ctl+Shift+P** to create a **new Java application in VSCode**
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/c5b3aed1-3a50-40c1-8cab-51f17e74fc6c)
 
-We select the first option "No build tools"
+We select the first option **No build tools**
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/dbd6f666-a160-412b-9bbc-902249801a13)
 
@@ -362,11 +362,11 @@ Now we select the folder where to place the new Java application
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/3d4d2d05-ddd3-4b93-8b8f-59e9d20f739f)
 
-We set the new Java application name "OrderProducer". The new Java application is created:
+We set the new Java application name **OrderProducer**. The new Java application is created:
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/7da21ea6-78e6-4b76-b2bc-931ac144c13e)
 
-We run this command to compile the application and generate the **App.class** file
+We run this command to **compile the application** and generate the **App.class** file
 
 ```
 C:\Kafka with Java\OrderProducer> javac src/App.java
@@ -374,7 +374,7 @@ C:\Kafka with Java\OrderProducer> javac src/App.java
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/c8525741-2316-4796-addc-7dca1d266c44)
 
-For running the new Java application we type the command:
+For **running the application** we type the command:
 
 ```
 C:\Kafka with Java\OrderProducer> java -cp src App  
@@ -382,7 +382,7 @@ C:\Kafka with Java\OrderProducer> java -cp src App
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/d4a98fb5-6da1-4398-b945-44be81cd9cfa)
 
-Now we enter the Kafka Producer source code in VSCode
+Now we enter the **Kafka Producer source code** in VSCode
 
 ```java
 import org.apache.kafka.clients.producer.KafkaProducer;
