@@ -416,15 +416,15 @@ public class KafkaProducerApp {
 }
 ```
 
-Then we rename the application name to "KafkaProducerApp"
+Then we rename the application name to **KafkaProducerApp**
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/9d9b1986-e974-4752-a3c2-822597b69e37)
 
-Now we create a new file called "" in the applicaton root and we input the following code:
+Now we create a new file called **log4j.properties** in the applicaton root and we input the following code:
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/3ad0f409-7cfd-40cf-9557-4e3ed6398cd2)
 
-Then we donwload Kafka JAR files from Apache Kafka web page (https://kafka.apache.org/downloads), and we place the JAR files in the Kafka producer Java application **lib** folder
+Then we **donwload Kafka JAR files** from Apache Kafka web page (https://kafka.apache.org/downloads), and we place the JAR files in the Kafka producer Java application **lib** folder
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/3c5dd16e-8d37-4f45-8d28-09a16cc0bf61)
 
@@ -434,7 +434,7 @@ Then we donwload Kafka JAR files from Apache Kafka web page (https://kafka.apach
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/aa7729cc-90c5-4d03-b32b-57de9898b4d2)
 
-To compile the Kafka Producer Java application run this command:
+To **compile the application** with this command:
 
 ```
 C:\Kafka with Java\OrderProducer> javac -cp "lib/*;src" src/KafkaProducerApp.java
@@ -442,7 +442,7 @@ C:\Kafka with Java\OrderProducer> javac -cp "lib/*;src" src/KafkaProducerApp.jav
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/38718465-2739-4b29-aa67-bc8c1ab9616a)
 
-Finally, we run the application with this command:
+Finally, we **run the application** with this command:
 
 ```
 C:\Kafka with Java\OrderProducer> java -cp "lib/*;src;." KafkaProducerApp
