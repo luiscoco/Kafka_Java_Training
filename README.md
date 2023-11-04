@@ -366,3 +366,6 @@ We set the new Java application name ""
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/39c8b7fd-508d-43fc-8625-498d5d44ba4c)
 
+The new Java application is created:
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/a416d317-7864-40aa-a41f-db9b5de7f2d4)
