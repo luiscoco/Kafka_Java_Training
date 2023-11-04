@@ -342,7 +342,9 @@ https://kafka.apache.org/documentation/#connectapi
 
 ## 12. Create a Java project with VSCode
 
-We create a new folder to place the Java application
+We create a new folder to place the Java application.
+
+We right click inside the folder and we select the option "Open with VSCode".
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/b6e778bf-c0cf-444c-b94c-42914f54180e)
 
