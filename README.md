@@ -369,7 +369,7 @@ We set the new Java application name "OrderProducer". The new Java application i
 We run this command to compile the application and generate the **App.class** file
 
 ```
-PS C:\Kafka with Java\OrderProducer> javac src/App.java
+C:\Kafka with Java\OrderProducer> javac src/App.java
 ```
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/c8525741-2316-4796-addc-7dca1d266c44)
@@ -377,7 +377,7 @@ PS C:\Kafka with Java\OrderProducer> javac src/App.java
 For running the new Java application we type the command:
 
 ```
-PS C:\Kafka with Java\OrderProducer> java -cp src App  
+C:\Kafka with Java\OrderProducer> java -cp src App  
 ```
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/d4a98fb5-6da1-4398-b945-44be81cd9cfa)
@@ -428,3 +428,18 @@ Then we donwload Kafka JAR files from Apache Kafka web page and we place the JAR
 
 ![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/aa7729cc-90c5-4d03-b32b-57de9898b4d2)
 
+To compile the Kafka Producer Java application run this command:
+
+```
+C:\Kafka with Java\OrderProducer> javac -cp "lib/*;src" src/KafkaProducerApp.java
+```
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/38718465-2739-4b29-aa67-bc8c1ab9616a)
+
+Finally, we run the application with this command:
+
+```
+C:\Kafka with Java\OrderProducer> java -cp "lib/*;src;." KafkaProducerApp
+```
+
+![image](https://github.com/luiscoco/Kafka_Java_Training/assets/32194879/86cffc0e-659b-4746-a563-698b0deabc7c)
